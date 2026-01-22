@@ -1,14 +1,14 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="id">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Animal | Template </title>
-    <meta name="description" content="">
+    <title>Edukasi Kesehatan | Happy Dental Clinic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-    <!-- CSS here -->
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
@@ -16,532 +16,322 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- CUSTOM BLOG STYLE -->
+    <style>
+        .blog_item {
+            margin-bottom: 60px;
+        }
+
+        .blog_item_img {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .blog_item_img img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        .blog_item_date {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: #ff0000;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .blog_item_date h3 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .blog_item_date p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .blog_details {
+            padding-top: 20px;
+        }
+
+        .blog_details h2 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .blog_details p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .blog_item_img img {
+                height: 240px;
+            }
+            .blog_details h2 {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blog_item_img img {
+                height: 200px;
+            }
+        }
+
+        /* ===== FOOTER RESPONSIVE ===== */
+        .footer-area {
+            background: #fff;
+        }
+
+        .footer-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 10px;
+            color: #6c757d;
+        }
+
+        .footer-list li a {
+            color: #6c757d;
+            text-decoration: none;
+        }
+
+        .footer-list li a:hover {
+            color: #0056b3;
+        }
+
+        .footer-social a {
+            display: inline-block;
+            margin-right: 12px;
+            font-size: 16px;
+            color: #000;
+        }
+
+        .footer-social a:hover {
+            color: #0056b3;
+        }
+
+        /* ===== MOBILE ===== */
+        @media (max-width: 768px) {
+            .footer-area {
+                text-align: center;
+            }
+
+            .footer-social {
+                margin-top: 15px;
+            }
+
+            .footer-social a {
+                margin: 0 8px;
+            }
+        }
+    </style>
 </head>
 
+
+
 <body>
-    <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/logo.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!--? Header Start -->
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                       <div class="col-xl-2 col-lg-2 col-md-1">
-                           <div class="logo">
+
+<!-- HEADER -->
+<header>
+    <div class="header-area header-transparent">
+        <div class="main-header header-sticky">
+            <div class="container-fluid px-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo/bg22-removebg-preview.png" 
-                                    alt="Happy Dental Clinic"
-                                    style="width:250px; height:auto;">
+                                <img src="assets/img/logo/bg22-removebg-preview.png" style="width:220px;">
                             </a>
                         </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="menu-main d-flex justify-content-end">
+                            <nav class="main-menu d-none d-lg-block">
+                                <ul id="navigation">
+                                    <li><a href="index.html">Beranda</a></li>
+                                    <li><a href="about.html">Tentang</a></li>
+                                    <li><a href="services.html">Layanan</a></li>
+                                    <li><a href="blog.html">Edukasi Kesehatan</a></li>
+                                    <li><a href="contact.html">Kontak Kami</a></li>
+                                </ul>
+                            </nav>
                         </div>
-                        <div class="col-xl-10 col-lg-10 col-md-10">
-                            <div class="menu-main d-flex align-items-center justify-content-end">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav> 
-                                        <ul id="navigation">
-                                            <li><a href="index.html">Beranda</a></li>
-                                            <li><a href="about.html">Tentang</a></li>
-                                            <li><a href="services.html">Layanan</a></li>
-                                            <li><a href="blog.html">Edukasi Kesehatan</a>
-                                            <li><a href="contact.html">Kontak Kami</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="#" class="header-btn">01654.066.456</a>
-                                </div>
-                            </div>
-                        </div>   
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Header End -->
-    </header>
-    <main>
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
         <!-- Hero Area Start -->
         <div class="slider-area2 slider-height2 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center pt-50">
-                            <h2>Edukasi Kesehatan</h2>
+                            <h2>Edukasi Kesehatan Gigi</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Hero Area End -->
-        <!--================Blog Area =================-->
-        <section class="blog_area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mb-5 mb-lg-0">
-                        <div class="blog_left_sidebar">
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
 
-                                <div class="blog_details">
-                                    <a class="d-inline-block" >
-                                        <h2>Pentingnya Perawatan Gigi Rutin</h2>
-<p>Perawatan gigi secara rutin membantu mencegah gigi berlubang,
-penyakit gusi, serta menjaga senyum tetap sehat dan percaya diri.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
+<!-- BLOG -->
+<section class="blog_area section-padding">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-12">
 
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-
-                                <div class="blog_details">
-                                    <a class="d-inline-block" >
-                                        <h2>Cara Menjaga Kesehatan Gigi Anak</h2>
-<p>Mengajarkan kebiasaan menyikat gigi sejak dini sangat penting
-untuk mencegah masalah gigi pada anak.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-
-                                <div class="blog_details">
-                                    <a class="d-inline-block" >
-                                       <h2>Tanda-Tanda Gigi Berlubang yang Perlu Diwaspadai</h2>
-<p>Nyeri gigi, bau mulut, dan sensitivitas berlebih bisa menjadi
-tanda awal gigi berlubang.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_4.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-
-                                <div class="blog_details">
-                                    <a class="d-inline-block" >
-                                        <h2>Manfaat Scaling Gigi Secara Berkala</h2>
-<p>Scaling membantu membersihkan karang gigi yang tidak bisa
-hilang hanya dengan menyikat gigi.</p>
-
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_5.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-
-                                <div class="blog_details">
-                                    <a class="d-inline-block" >
-                                        <h2>Tips Memutihkan Gigi dengan Aman</h2>
-<p>Gunakan perawatan pemutihan gigi yang aman dan sesuai anjuran
-dokter gigi untuk hasil maksimal.</p>
-
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-
-                            <nav class="blog-pagination justify-content-center d-flex">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Previous">
-                                            <i class="ti-angle-left"></i>
-                                        </a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a href="#" class="page-link">1</a>
-                                    </li>
-                                    <li class="page-item active">
-                                        <a href="#" class="page-link">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Next">
-                                            <i class="ti-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                <!-- BLOG ITEM -->
+                <article class="blog_item">
+                    <div class="blog_item_img">
+                        <img src="assets/img/blog/single_blog_1.png" alt="">
+                        <div class="blog_item_date">
+                            <h3>15</h3>
+                            <p>Jan</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="blog_right_sidebar">
-                            <aside class="single_sidebar_widget search_widget">
-                                <form action="#">
-                                    <div class="form-group">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder='Search Keyword'
-                                                onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Search Keyword'">
-                                            <div class="input-group-append">
-                                                <button class="btns" type="button"><i class="ti-search"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                        type="submit">Search</button>
-                                </form>
-                            </aside>
+                    <div class="blog_details">
+                        <h2>Pentingnya Perawatan Gigi Rutin</h2>
+                        <p>
+                            Perawatan gigi secara rutin membantu mencegah gigi berlubang,
+                            penyakit gusi, serta menjaga senyum tetap sehat dan percaya diri.
+                        </p>
+                    </div>
+                </article>
 
-                            <aside class="single_sidebar_widget post_category_widget">
-                                <h4 class="widget_title">Category</h4>
-                                <ul class="list cat-list">
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Resaurant food</p>
-                                            <p>(37)</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Travel news</p>
-                                            <p>(10)</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Modern technology</p>
-                                            <p>(03)</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Product</p>
-                                            <p>(11)</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Inspiration</p>
-                                            <p>21</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="d-flex">
-                                            <p>Health Care (21)</p>
-                                            <p>09</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </aside>
-
-                            <aside class="single_sidebar_widget popular_post_widget">
-                                <h3 class="widget_title">Recent Post</h3>
-                                <div class="media post_item">
-                                    <img src="assets/img/post/post_1.png" alt="post">
-                                    <div class="media-body">
-                                        <a href=".">
-                                            <h3>From life was you fish...</h3>
-                                        </a>
-                                        <p>January 12, 2019</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="assets/img/post/post_2.png" alt="post">
-                                    <div class="media-body">
-                                        <a href=".">
-                                            <h3>The Amazing Hubble</h3>
-                                        </a>
-                                        <p>02 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="assets/img/post/post_3.png" alt="post">
-                                    <div class="media-body">
-                                        <a href=".">
-                                            <h3>Astronomy Or Astrology</h3>
-                                        </a>
-                                        <p>03 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="assets/img/post/post_4.png" alt="post">
-                                    <div class="media-body">
-                                        <a href=".">
-                                            <h3>Asteroids telescope</h3>
-                                        </a>
-                                        <p>01 Hours ago</p>
-                                    </div>
-                                </div>
-                            </aside>
-                            <aside class="single_sidebar_widget tag_cloud_widget">
-                                <h4 class="widget_title">Tag Clouds</h4>
-                                <ul class="list">
-                                    <li>
-                                        <a href="#">project</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">love</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">technology</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">travel</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">restaurant</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">life style</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">design</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">illustration</a>
-                                    </li>
-                                </ul>
-                            </aside>
-
-                            <aside class="single_sidebar_widget instagram_feeds">
-                                <h4 class="widget_title">Instagram Feeds</h4>
-                                <ul class="instagram_row flex-wrap">
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </aside>
-
-
-                            <aside class="single_sidebar_widget newsletter_widget">
-                                <h4 class="widget_title">Newsletter</h4>
-
-                                <form action="#">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
-                                    </div>
-                                    <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                        type="submit">Subscribe</button>
-                                </form>
-                            </aside>
+                <article class="blog_item">
+                    <div class="blog_item_img">
+                        <img src="assets/img/blog/single_blog_2.png" alt="">
+                        <div class="blog_item_date">
+                            <h3>15</h3>
+                            <p>Jan</p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!--================Blog Area =================-->
-    </main>
-    <footer>
-        <!-- Footer Start-->
-        <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                       <div class="single-footer-caption mb-50">
-                         <div class="single-footer-caption mb-30">
-                              <!-- logo -->
-                             <div class="footer-logo mb-25">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                             </div>
-                             <div class="footer-tittle">
-                                 <div class="footer-pera">
-                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor elit. </p>
-                                </div>
-                             </div>
-                             <!-- social -->
-                             <div class="footer-social">
-                                 <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-square"></i></a>
-                                 <a href="#"><i class="fab fa-twitter-square"></i></a>
-                                 <a href="#"><i class="fab fa-linkedin"></i></a>
-                                 <a href="#"><i class="fab fa-pinterest-square"></i></a>
-                             </div>
-                         </div>
-                       </div>
+                    <div class="blog_details">
+                        <h2>Cara Menjaga Kesehatan Gigi Anak</h2>
+                        <p>
+                            Mengajarkan kebiasaan menyikat gigi sejak dini sangat penting
+                            untuk mencegah masalah gigi pada anak.
+                        </p>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Company</h4>
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href=".">Services</a></li>
-                                    <li><a href="#">Cases</a></li>
-                                    <li><a href="contact.html">  Contact Us</a></li>
-                                </ul>
-                            </div>
+                </article>
+
+                <article class="blog_item">
+                    <div class="blog_item_img">
+                        <img src="assets/img/blog/single_blog_3.png" alt="">
+                        <div class="blog_item_date">
+                            <h3>15</h3>
+                            <p>Jan</p>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Services</h4>
-                                <ul>
-                                    <li><a href="#">Commercial Cleaning</a></li>
-                                    <li><a href="#">Office Cleaning</a></li>
-                                    <li><a href="#">Building Cleaning</a></li>
-                                    <li><a href="#">Floor Cleaning</a></li>
-                                    <li><a href="#">Apartment Cleaning</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="blog_details">
+                        <h2>Tanda-Tanda Gigi Berlubang</h2>
+                        <p>
+                            Nyeri gigi, bau mulut, dan sensitivitas berlebih dapat menjadi
+                            tanda awal gigi berlubang.
+                        </p>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Get in Touch</h4>
-                                <ul>
-                                 <li><a href="#">152-515-6565</a></li>
-                                 <li><a href="#"> Demomail@gmail.com</a></li>
-                                 <li><a href="#">New Orleans, USA</a></li>
-                             </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </article>
+
             </div>
         </div>
-        <!-- footer-bottom area -->
-        <div class="footer-bottom-area">
-            <div class="container">
-                <div class="footer-border">
-                     <div class="row d-flex align-items-center">
-                         <div class="col-xl-12 ">
-                             <div class="footer-copy-right text-center">
-                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                             </div>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End-->
-    </footer>
-    <!-- Scroll Up -->
-    <div id="back-top" >
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
+</section>
 
-<!-- JS here -->
-	
-		<!-- All JS Custom Plugins Link Here here -->
-        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		<!-- Jquery, Popper, Bootstrap -->
-		<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="./assets/js/popper.min.js"></script>
-        <script src="./assets/js/bootstrap.min.js"></script>
-	    <!-- Jquery Mobile Menu -->
-        <script src="./assets/js/jquery.slicknav.min.js"></script>
+</main>
 
-		<!-- Jquery Slick , Owl-Carousel Plugins -->
-        <script src="./assets/js/owl.carousel.min.js"></script>
-        <script src="./assets/js/slick.min.js"></script>
-		<!-- One Page, Animated-HeadLin -->
-        <script src="./assets/js/wow.min.js"></script>
-		<script src="./assets/js/animated.headline.js"></script>
-		
-		<!-- Nice-select, sticky -->
-        <script src="./assets/js/jquery.nice-select.min.js"></script>
-		<script src="./assets/js/jquery.sticky.js"></script>
-        <script src="./assets/js/jquery.magnific-popup.js"></script>
+<footer>
+    <div class="footer-area footer-padding">
+        <div class="container-fluid px-4 px-lg-5">
+            <div class="row justify-content-between">
 
-        <!-- contact js -->
-        <script src="./assets/js/contact.js"></script>
-        <script src="./assets/js/jquery.form.js"></script>
-        <script src="./assets/js/jquery.validate.min.js"></script>
-        <script src="./assets/js/mail-script.js"></script>
-        <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-        
-		<!-- Jquery Plugins, main Jquery -->	
-        <script src="./assets/js/plugins.js"></script>
-        <script src="./assets/js/main.js"></script>
-        
+                <!-- LOGO & SOSIAL -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="footer-logo mb-3">
+                        <img src="assets/img/logo/logo2_footer.png" alt="My Dentique" style="max-width:220px;">
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-list">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                        <li><a href="services.html">Layanan</a></li>
+                        <li><a href="blog.html">Edukasi Kesehatan</a></li>
+                        <li><a href="contact.html">Kontak Kami</a></li>
+                    </ul>
+                </div>
+
+                <!-- LAYANAN -->
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <h4 class="footer-title">Layanan</h4>
+                    <ul class="footer-list">
+                        <li>Bleaching</li>
+                        <li>Veneer</li>
+                        <li>Cabut Gigi</li>
+                        <li>Scaling</li>
+                        <li>Tambal Gigi</li>
+                        <li>Perawatan Saluran Akar</li>
+                    </ul>
+                </div>
+
+                <!-- KONTAK -->
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <h4 class="footer-title">Get in Touch</h4>
+                    <ul class="footer-list">
+                        <li>62-812-9610-7330</li>
+                        <li>mydentique@gmail.com</li>
+                        <li>Batam, Kepri</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- JS -->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
